@@ -1,6 +1,7 @@
 language: haskell
 ghc: 7.8
 install:
+  - cabal install cabal-install
   - cd tests
   - cp -r ../src src
   - git clone https://github.com/elm-lang/elm-compiler.git
